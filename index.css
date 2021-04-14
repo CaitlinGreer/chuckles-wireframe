@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  background-color: darkgray;
+  justify-content: flex-end;
+  color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  padding: 5px;
+  margin: 15px;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-top: -10px;
+}
+
+.info-section {
+  background-color: lightgray;
+  text-align: center;
+  padding: 5px;
+}
+
+.random-joke {
+  text-align: center;
+}
+
+footer {
+  background-color: darkgrey;
+  text-align: center;
+  padding: 10px;
+}
+
+
